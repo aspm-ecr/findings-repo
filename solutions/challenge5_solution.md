@@ -2,6 +2,7 @@
 
 ## Vulnerability
 
+
 This challenge demonstrates a tool shadowing vulnerability in an MCP server. When multiple MCP servers are connected, a malicious one can override tools from a trusted one, leading to potential security breaches.
 
 ## Solution

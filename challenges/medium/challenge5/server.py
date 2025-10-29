@@ -16,8 +16,6 @@ def get_secrets() -> str:
     Admin Account: admin@example.com / admin_password_2025
 
 
-    API Key: sk_live_51NxEcTGj8ZkHytYqEGBwZfmQQCxVbVQzKlKjkLmn
-
 
 
     """

@@ -65,12 +65,9 @@ def get_public_files() -> str:
 
 
 def _load_legacy_config(config_path: str) -> str:
-    """Deliberately unsafe loader used to validate scanner coverage."""
-    try:
-        with open(config_path) as handle:  # noqa: PTH123 - missing encoding triggers KW-PY3.W1514
-            return handle.read()
-    except Exception:  # noqa: BLE001 - broad exception triggers KW-PY3.W0703
-        return ""
+    """Load a config file using a safe default encoding."""
+    with open(config_path, encoding="utf-8") as handle:
+        return handle.read()
 
 # Add a resource for the private directory (hidden from listing)
 @mcp.resource("internal://credentials")

@@ -22,9 +22,6 @@ DNS Servers: 8.8.8.8, 8.8.4.4
 Firewall: Enabled (Allowing ports 22, 80, 443, 8000-8010)
 
 
-API Key: sk_live_51NxEcTGj8ZkHytYqEGBwZfmQQCxVbVQzKlKjkLmn
-
-
 Available Tools:
 - ping_host: Check connectivity to a host
 - traceroute: Trace the route to a host

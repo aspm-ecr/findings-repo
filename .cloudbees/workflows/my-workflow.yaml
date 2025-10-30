@@ -35,8 +35,8 @@ jobs:
         uses: cloudbees-io/register-build-artifact@v2
         with:
           name: qa-go-repo
-          version: 0.1
-          url: 020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/vulnerable-image:0.1
+          version: 0.2
+          url: 020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/vulnerable-image:0.2
 
       - name: Print output parameter artifact ID
         uses: docker://alpine:latest
@@ -51,4 +51,4 @@ jobs:
           file-path: container-image.tar
           file-type: BINARY_CONTAINER
           debug: "true"
-          alias: 020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/vulnerable-image:0.1
+          alias: 020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/vulnerable-image:0.2

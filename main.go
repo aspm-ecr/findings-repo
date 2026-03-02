@@ -12,7 +12,9 @@ type Payload struct {
 }
 
 const password = "super_secret"
-const password = "super_secret"
+const password1 = "super_secret"
+const password2 = "super_secret"
+const password3 = "super_secret"
 
 func hello(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
 	apiKey := "my-secret-key"

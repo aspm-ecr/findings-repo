@@ -102,6 +102,9 @@ The project includes 10 challenges across three difficulty levels:
 8. **Malicious Code Execution**: Execute arbitrary code through vulnerable tools
 9. **Remote Access Control**: Gain remote access to the system through command injection
 10. **Multi-Vector Attack**: Chain multiple vulnerabilities for a sophisticated attack
+1. **Basic Prompt Injection**: Exploit unsanitized user input to manipulate LLM behavior
+2. **Tool Poisoning**: Exploit hidden instructions in tool descriptions
+3. **Excessive Permission Scope**: Exploit overly permissive tools to access unauthorized resources
 
 See the [Challenges Guide](docs/challenges.md) for detailed descriptions of each challenge.
 
